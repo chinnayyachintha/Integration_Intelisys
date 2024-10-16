@@ -1,0 +1,26 @@
+# Terraform-related files
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform variable files (JSON format)
+*.tfvars.json
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform provider cache directory
+.terraform/
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Local temporary files
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Operating System-specific files
+# Ignore macOS and Windows-specific system files
+.DS_Store
+Thumbs.db
