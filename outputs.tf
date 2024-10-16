@@ -29,6 +29,7 @@ output "api_endpoint" {
 }
 
 output "api_key" {
-  value = aws_api_gateway_api_key.payment_api_key.value
-   sensitive = true 
+  description = "The API Key for accessing the Payment API"
+  value     = aws_api_gateway_api_key.payment_api_key.value
+  sensitive = true
 }

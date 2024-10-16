@@ -111,7 +111,7 @@ resource "aws_api_gateway_model" "create_payment_model" {
   content_type = "application/json"
 
   schema = jsonencode({
-    type       = "object"
+    type = "object"
     properties = {
       amount   = { type = "number" }
       currency = { type = "string" }
